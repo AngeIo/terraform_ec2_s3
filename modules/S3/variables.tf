@@ -8,7 +8,7 @@ variable "module_ec2_public_ip" {
   type = string
 }
 
-variable "acl_value" {
+variable "module_acl_value" {
   description = "Define type of access to bucket"
   default = "public-read"
 }

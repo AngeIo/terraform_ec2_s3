@@ -8,6 +8,6 @@ module "GRP5_s3" {
 module "GRP5_ec2" {
     module_ami = var.GRP5_ami
     module_instance_type = var.GRP5_instance_type
-    # module_vpc_cidr = var.GRP5_vpc_cidr
+    module_web_msg = var.GRP5_web_msg
     source = "./modules/EC2"
 }

@@ -1,7 +1,7 @@
 # Permet de créer notre bucket
 resource "aws_s3_bucket" "GRP5_bucket" {
   bucket = var.module_bucket_name
-  acl = var.acl_value
+  acl = var.module_acl_value
   force_destroy = true
 }
 

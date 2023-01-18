@@ -28,12 +28,6 @@ variable "GRP5_instance_type" {
   type = string
 }
 
-# # Défini le CIDR du VPC
-# variable "GRP5_vpc_cidr" {
-#   description = "CIDR of VPC"
-#   type = string
-# }
-
 # Défini le message à afficher sur la page web
 variable "GRP5_web_msg" {
   description = "Message to show on the main web page"
