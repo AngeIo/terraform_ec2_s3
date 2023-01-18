@@ -1,0 +1,7 @@
+.terraform*
+desktop.ini
+*.lnk
+*.tmp
+*.bak
+*.old
+*.log

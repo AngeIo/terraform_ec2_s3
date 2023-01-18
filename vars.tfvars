@@ -1,0 +1,6 @@
+region = "us-east-1"
+shared_credentials_file = "C:/Users/Angelo/.aws/credentials"
+GRP5_bucket_name = "esgi-g5-buck15"
+GRP5_ami = "ami-0b5eea76982371e91"
+GRP5_instance_type = "t2.micro"
+GRP5_web_msg = "Le GRP5"
