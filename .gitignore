@@ -5,3 +5,5 @@ desktop.ini
 *.bak
 *.old
 *.log
+*.tfstate
+*.backup
